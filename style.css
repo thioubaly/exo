@@ -1,0 +1,273 @@
+/* Header */
+h1
+{
+    font-family: Broadway;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 110px;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+
+header
+{
+    height: 120px;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color:#ffff;
+    background-color: rgb(92, 85, 85);
+    border: 40px;
+    padding: 17px;
+    width: 20px;
+    height: 20px;
+}
+.d
+{
+    text-align: center;
+}
+.e
+{
+    text-align: center;
+}
+.f
+{
+    text-align: center;
+}
+ol
+{
+    text-align: center;
+}
+.g
+{
+    text-align: center;
+}
+header,body,html
+{
+    width: 100;
+    height: 100;
+}
+#accueil
+{
+    height: 900px;
+    background-image: url(image/lion.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+}
+ h2
+{
+    font-weight: normal;
+    padding: 400px 0 40px 0;
+    margin-bottom: 15px;
+    color: white;
+    text-align: middle;
+}
+.e
+{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background: #9ba899;
+    color: rgb(226, 214, 214);
+    font-size: 17px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.e:hover
+{
+    background-color: transparent;
+}
+.h
+{
+    display: block;
+    width: 300px;
+    height: 40px;
+    background: #9ba899;
+    color: rgb(226, 214, 214);
+    font-size: 22px;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.h:hover
+{
+    background-color: unset;
+}
+.f
+{
+    font-size: 40px;
+}
+a
+{
+    text-decoration: none;
+}
+.slide
+{
+    float: left;
+}
+.slides
+{
+    width: calc(500px * 3);
+    animation: glisse 15s infinite;
+}
+.slider
+{
+    width: 500px;
+    height: 333px;
+    overflow: hidden;
+    margin: 150px auto;
+}
+@keyframes glisse
+{
+0% 
+{
+    transform: translateX(0);
+}
+10% 
+{
+transform: translateX(0);
+}
+33% 
+{
+transform: translateX(-500px);
+}
+43% 
+{
+transform: translateX(-500px);
+}
+66% 
+{
+transform: translateX(-1000px);
+}
+76% 
+{
+transform: translateX(-1000px);
+}
+100% 
+{
+transform: translateX(0);
+}
+}
+p
+{
+    font-size: 23px;
+}
+.al
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+footer
+{
+    background-color: rgb(1, 1, 24);
+    height: 150px;
+    box-shadow: black;
+}
+.z
+{
+    color: white;
+}
+footer a:hover 
+{
+    color: white;
+    border-bottom: 3px solid  white;
+    border:  200px;
+    padding: 20px;
+    background-color: rgb(174, 122, 243);
+    width: 20px;
+    height: 30px;
+}
+footer
+{
+    text-align: center;
+    box-shadow: 0px 6px 6px black;
+}
+.y
+{
+    background-color: rgb(253, 253, 188);
+    box-shadow: 2px 10px 10px black;
+}
+.k
+{
+    background-color: rgb(253, 253, 188);
+    box-shadow: 2px 10px 10px black;
+}
+.q
+{
+    background-color: rgb(253, 253, 188);
+    box-shadow: 2px 10px 10px black;
+}
+.img
+{
+    width: 200px;
+    clip-path: circle();
+    float: left;
+    margin-top: 10px;
+}
+@media all and (max-width: 1024px)
+{
+    section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    aside p:last-child
+    {
+        text-align: center;
+    }
+     h1
+    {
+        float: left;
+        margin-left: 20px;
+    }
+    .img
+    {
+        width: 80px;
+        clip-path: circle();
+        float: left;
+        margin-top: 40px;
+    }
+    nav ul
+    {
+        list-style-type: none;
+        display: column;
+        float: right; 
+        flex-direction: none;
+    }
+}
